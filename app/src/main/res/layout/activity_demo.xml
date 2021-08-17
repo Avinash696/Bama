@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bt_loc"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".testloc">
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:padding="10dp">
+
+  <EditText
+      android:id="@+id/et_name"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="USer name" />
+
+  <EditText
+      android:id="@+id/et_password"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:ems="10"
+      android:inputType="textPersonName"
+      android:hint="Password"
+      android:layout_below="@+id/et_name"/>
+
+  <Button
+      android:id="@+id/bt_register"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="Register"
+      android:layout_below="@+id/et_password"/>
+  </RelativeLayout>
+</RelativeLayout>
